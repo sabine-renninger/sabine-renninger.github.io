@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2"), 
+      url("/fonts/IBMPlexSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/IBMPlexSans-SemiBold.woff2") format("woff2"), 
+      url("/fonts/IBMPlexSans-SemiBold.woff") format("woff");
+}
+
 body {
   background-color: #fefefe;
   position: relative;
@@ -6,6 +22,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: "IBMPlexSans", 'IBM Plex Sans', sans-serif;
 }
 
 body::after {
@@ -51,9 +68,13 @@ body::after {
       height: 25px;
       display: flex;
       align-items: center;
+      border: 1px solid transparent;
 
-      &:hover {
-        background-color: #135;
+      &:hover,
+      &:focus {
+        border: 1px dotted #fefefe;
+        border-radius: 5px;
+        transform: scale(1.1);
       }
     }
   }
@@ -71,6 +92,10 @@ body::after {
     background-color: #f0f8ff99;
     padding: 2rem 0.5rem;
     border-radius: .33rem;
+
+    .homepage-content {
+      padding: 0 1rem;
+    }
   }
 }
 

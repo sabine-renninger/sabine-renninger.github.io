@@ -6,7 +6,6 @@ layout: single
 ---
 
 # List of selected publications
-{.p3}
 
 ---
 
