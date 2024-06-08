@@ -8,7 +8,7 @@ layout: single
 ![](/img/Foto-Renninger-SL_720.png)
 {.img-left} -->
 
-# Dr. Sabine L. Renninger
+# Sabine L. Renninger
 
 ## Welcome to my homepage
 
