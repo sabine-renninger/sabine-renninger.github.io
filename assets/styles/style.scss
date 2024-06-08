@@ -44,6 +44,7 @@ body::after {
 
 .nav-wrapper {
   background-color: #27a;
+  background: linear-gradient(90deg, #9bc, #27a);
   display: flex;
   justify-content: center;
   height: 3.333rem;
@@ -52,20 +53,20 @@ body::after {
 
   nav.nav {
     width: 980px;
-    width: 640px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     justify-content: center;
     align-items: center;
     padding: .5rem 0;
-    flex-direction: column;
+    // flex-direction: column;
 
-    a.nav-brand {
+    .nav-brand {
       display: flex;
-      align-items: center;
-      width: 280px;
-      flex-direction: column;
-      justify-content: flex-end;
+      // align-items: center;
+      width: 250px;
+      flex-direction: row;
+      // justify-content: flex-end;
     }
 
     .nav-collapse {
@@ -88,7 +89,7 @@ body::after {
         border: 1px dotted #fefefe;
         border-radius: 5px;
         transform: scale(1.067);
-        background-color: #577;
+        // background-color: #577;
       }
     }
   }
