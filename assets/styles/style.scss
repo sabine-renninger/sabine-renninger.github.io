@@ -1,3 +1,7 @@
+:root {
+  --side-panel-width: 480px;
+}
+
 @font-face {
   font-family: "IBMPlexSans";
   font-style: normal;
@@ -44,7 +48,7 @@ body::after {
 
 .nav-wrapper {
   background-color: #27a;
-  background: linear-gradient(90deg, #9bc, #27a);
+  // background: linear-gradient(90deg, #9bc, #27a);
   display: flex;
   justify-content: center;
   height: 3.333rem;
@@ -53,19 +57,21 @@ body::after {
 
   nav.nav {
     width: 980px;
-    width: 600px;
+    width: var(--side-panel-width, 600px);
     display: flex;
     justify-content: space-between;
     justify-content: center;
     align-items: center;
     padding: .5rem 0;
-    // flex-direction: column;
+    flex-direction: column;
 
     .nav-brand {
+      margin-top: -3.33rem;
       display: flex;
       // align-items: center;
       width: 250px;
       flex-direction: row;
+      padding-bottom: 1rem;
       // justify-content: flex-end;
     }
 
@@ -81,25 +87,26 @@ body::after {
       height: 25px;
       display: flex;
       align-items: center;
-      border: 1px solid transparent;
+      // border: 1px solid transparent;
       font-weight: 600;
 
-      &:hover,
+      &:hover, /* Effekte bei :hover und :focus */
       &:focus {
-        border: 1px dotted #fefefe;
-        border-radius: 5px;
-        transform: scale(1.067);
+        // border: 1px dotted #fefefe;
+        // border-radius: 5px;
         // background-color: #577;
+
+        transform: scale(1.25) translateX(8px); /* um 25% größer und 8px nach rechts */
+        color: #fff; /* weiß statt color: #fefefe; */
       }
     }
   }
 }
 
-
 .main-wrapper {
   display: flex;
   justify-content: center;
-  left: 640px;
+  left: calc( var(--side-panel-width) * 1.1);
   position: relative;
 
   main {

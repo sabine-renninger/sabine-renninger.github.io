@@ -1,16 +1,14 @@
 ---
-title: "Dr. Sabine L. Renninger"
+title: "Sabine Renninger"
 draft: false
 type: _default
 layout: single
 ---
 
-![](./img/Foto-Renninger-SL_720.png)
-{.img-left}
+<!-- ![](./img/Foto-Renninger-SL_720.png)
+{.img-left} -->
 
 # Sabine Renninger
-
-## 
 
 I am a System Neuroscience researcher working at the intersection of molecular and optical engineering, brain-wide functional imaging and data science to uncover how neural circuits dynamically process sensory cues and adaptively compute behavioral actions.
 
