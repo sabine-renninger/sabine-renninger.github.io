@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2"), 
-      url("/fonts/IBMPlexSans-Regular.woff") format("woff");
+  url("/fonts/IBMPlexSans-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 600;
   src: url("/fonts/IBMPlexSans-SemiBold.woff2") format("woff2"), 
-      url("/fonts/IBMPlexSans-SemiBold.woff") format("woff");
+  url("/fonts/IBMPlexSans-SemiBold.woff") format("woff");
 }
 
 body {
@@ -22,7 +22,10 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  flex-direction: row;
   font-family: "IBMPlexSans", 'IBM Plex Sans', sans-serif;
+  min-height: 100vh;
+  align-content: center;
 }
 
 body::after {
@@ -41,28 +44,38 @@ body::after {
 
 .nav-wrapper {
   background-color: #27a;
+  background: linear-gradient(90deg, #9bc, #27a);
   display: flex;
   justify-content: center;
   height: 3.333rem;
+  height: 100vh;
+  position: fixed;
 
   nav.nav {
     width: 980px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: .5rem 0;
+    // flex-direction: column;
 
-    a.nav-brand {
+    .nav-brand {
       display: flex;
-      align-items: center;
+      // align-items: center;
+      width: 250px;
+      flex-direction: row;
+      // justify-content: flex-end;
     }
 
     .nav-collapse {
       display: flex;
+      flex-direction: column;
     }
 
     a.nav-link {
-      padding: 5px 2rem;
+      padding: .67rem 2rem;
       text-decoration: none;
       color: #fefefe;
       height: 25px;
@@ -76,7 +89,7 @@ body::after {
         border: 1px dotted #fefefe;
         border-radius: 5px;
         transform: scale(1.067);
-        background-color: #577;
+        // background-color: #577;
       }
     }
   }
@@ -86,6 +99,8 @@ body::after {
 .main-wrapper {
   display: flex;
   justify-content: center;
+  left: 640px;
+  position: relative;
 
   main {
     display: flex;
@@ -94,6 +109,7 @@ body::after {
     background-color: #f0f8ff99;
     padding: 2rem 0.5rem;
     border-radius: .33rem;
+    justify-content: center;
 
     .homepage-content {
       padding: 0 1rem;
@@ -105,13 +121,17 @@ body::after {
   // display: inline-block;
   float: left;
   img {
-  margin: 0.67rem 1.5rem;
-  width: 360px;
+    margin: 0.67rem 1.5rem;
+    width: 360px;
   // box-shadow: #ccc 10px 10px 20px;
   // border-radius: 15px;
-  }
+}
 }
 
 .p3 {
   padding-top: 3rem;
+}
+
+img {
+  width: 100%;
 }
