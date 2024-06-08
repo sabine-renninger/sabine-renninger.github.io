@@ -1,11 +1,11 @@
 ---
-title: "Bine's landing page"
+title: "Dr. Sabine L. Renninger"
 draft: false
 type: _default
 layout: single
 ---
 
-![](./img/Sabine-Renninger-gray-bg-720.jpg)
+![](./img/Foto-Renninger-SL_720.png)
 {.img-left}
 
 # Dr. Sabine L. Renninger

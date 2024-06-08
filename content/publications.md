@@ -1,5 +1,5 @@
 ---
-title: "Bine's projects"
+title: "Publications · Renninger SL"
 draft: false
 type: _default
 layout: single
