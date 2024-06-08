@@ -74,7 +74,8 @@ body::after {
       &:focus {
         border: 1px dotted #fefefe;
         border-radius: 5px;
-        transform: scale(1.1);
+        transform: scale(1.067);
+        background-color: #577;
       }
     }
   }
