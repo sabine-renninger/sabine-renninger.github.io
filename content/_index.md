@@ -4,9 +4,9 @@ draft: false
 type: _default
 layout: single
 ---
-<!-- 
-![](/img/Foto-Renninger-SL_720.png)
-{.img-left} -->
+
+![](./img/Foto-Renninger-SL_720.png)
+{.img-left}
 
 # Dr. Sabine L. Renninger
 
