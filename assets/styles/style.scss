@@ -6,16 +6,18 @@
   font-family: "IBMPlexSans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2"), 
-  url("/fonts/IBMPlexSans-Regular.woff") format("woff");
+  src:
+    url("/fonts/IBMPlexSans-Regular.woff2") format("woff2"),
+    url("/fonts/IBMPlexSans-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "IBMPlexSans";
   font-style: normal;
   font-weight: 600;
-  src: url("/fonts/IBMPlexSans-SemiBold.woff2") format("woff2"), 
-  url("/fonts/IBMPlexSans-SemiBold.woff") format("woff");
+  src:
+    url("/fonts/IBMPlexSans-SemiBold.woff2") format("woff2"),
+    url("/fonts/IBMPlexSans-SemiBold.woff") format("woff");
 }
 
 body {
@@ -27,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-direction: row;
-  font-family: "IBMPlexSans", 'IBM Plex Sans', sans-serif;
+  font-family: "IBMPlexSans", "IBM Plex Sans", sans-serif;
   min-height: 100vh;
   align-content: center;
 }
@@ -62,7 +64,7 @@ body::after {
     justify-content: space-between;
     justify-content: center;
     align-items: center;
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     flex-direction: column;
 
     .nav-brand {
@@ -81,7 +83,7 @@ body::after {
     }
 
     a.nav-link {
-      padding: .67rem 2rem;
+      padding: 0.67rem 2rem;
       text-decoration: none;
       color: #fefefe;
       height: 25px;
@@ -106,7 +108,7 @@ body::after {
 .main-wrapper {
   display: flex;
   justify-content: center;
-  left: calc( var(--side-panel-width) * 1.1);
+  left: calc(var(--side-panel-width) * 1.1);
   position: relative;
 
   main {
@@ -115,7 +117,7 @@ body::after {
     max-width: 980px;
     background-color: #f0f8ff99;
     padding: 2rem 0.5rem;
-    border-radius: .33rem;
+    border-radius: 0.33rem;
     justify-content: center;
 
     .homepage-content {
@@ -130,9 +132,9 @@ body::after {
   img {
     margin: 0.67rem 1.5rem;
     width: 360px;
-  // box-shadow: #ccc 10px 10px 20px;
-  // border-radius: 15px;
-}
+    // box-shadow: #ccc 10px 10px 20px;
+    // border-radius: 15px;
+  }
 }
 
 .p3 {
@@ -141,4 +143,8 @@ body::after {
 
 img {
   width: 100%;
+}
+
+.br2 img {
+  border-radius: 2rem;
 }
