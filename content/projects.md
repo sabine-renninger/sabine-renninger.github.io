@@ -16,7 +16,7 @@ layout: single
 
 We study how visual cues such as optic flow or motion of objects are encoded in the brain of larval zebrafish. 
 
----
+
 
 ## Diencephalic architectures for visual orientation
 
