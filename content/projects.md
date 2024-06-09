@@ -6,6 +6,7 @@ layout: single
 ---
 
 # Preview on ongoing projects
+
 {.p3}
 
 ## Genetic dissection of brain-wide visual function
@@ -17,7 +18,7 @@ We study how visual cues such as optic flow or motion of objects are encoded in 
 
 ---
 
-## Diencephalic achitectures for visual orientation
+## Diencephalic architectures for visual orientation
 
 ![diencephalic nuclei](/img/die-prosomerse_980px.jpg)
 {.br2}
