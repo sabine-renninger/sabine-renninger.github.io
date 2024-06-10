@@ -171,6 +171,16 @@ img {
   width: 100%;
 }
 
-.br2 img {
-  border-radius: 2rem;
+.figure.side2side {
+  display: flex;
+  align-items: center;
+}
+
+.br2 {
+  width: 240px;
+  margin-right: 1.333rem;
+  flex-shrink: 0;
+  img {
+    border-radius: .25rem;
+  }
 }
