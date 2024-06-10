@@ -196,6 +196,9 @@ img {
   img {
     border-radius: 0.25rem;
   }
+  @media (max-width: 900px) {
+    width: 160px;
+  }
 }
 
 // horizontal nav
@@ -236,7 +239,8 @@ img {
       }
       a.nav-link {
         padding: 0;
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
           transform: scale(1.25);
         }
         &.dd {
