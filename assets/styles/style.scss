@@ -82,6 +82,13 @@ body::after {
       flex-direction: column;
     }
 
+    .social {
+      display: flex;
+      justify-content: center;
+      // width: 66.6667%;
+      margin-top: 1.5rem;
+    }
+
     a.nav-link {
       padding: 0.67rem 2rem;
       text-decoration: none;
@@ -100,6 +107,25 @@ body::after {
 
         transform: scale(1.25) translateX(8px); /* um 25% größer und 8px nach rechts */
         color: #fff; /* weiß statt color: #fefefe; */
+      }
+
+      &.dd {
+        padding: 0;
+        width: 2.2rem;
+        height: auto;
+        margin: 0 0.8rem;
+
+        stroke: currentColor;
+        fill: none;
+        /* stroke-linejoin: round; */
+        stroke-linecap: round;
+        stroke-width: 1.3333px;
+
+        &:hover, /* Effekte bei :hover und :focus */
+        &:focus {
+          transform: scale(1.33);
+          color: #fff;
+        }
       }
     }
   }
