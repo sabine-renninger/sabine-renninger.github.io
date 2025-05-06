@@ -9,6 +9,12 @@ layout: single
 
 ---
 
+## Characterisation of transgenic lines labelling reticulospinal neurons in larval zebrafish
+Collins EMD, Silva PTM, Ostrovsky AD, __Renninger SL__, Tomás AR, Diez del Corral R, Orger MB:
+[biorxiv 10.1101/2024.12.20.629714](https://www.biorxiv.org/content/10.1101/2024.12.20.629714v1). Doi:[10.1101/2024.12.20.629714](https://doi.org/10.1101/2024.12.20.629714)
+
+---
+
 ## Structural and functional organization of visual responses in the inferior olive of larval zebrafish.
 Felix R, Markov DA, __Renninger SL__, Tomás R, Laborde A, Carey MR, Orger MB, Portugues R:  
 The Journal of Neuroscience 21; 44(8):e2352212023. Doi:[10.1523/JNEUROSCI.2352-21.2023](https://doi.org/10.1523/JNEUROSCI.2352-21.2023)
